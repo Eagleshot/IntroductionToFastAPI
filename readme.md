@@ -1,6 +1,6 @@
 # Introduction to FastAPI ⚡
 # What is an API? 
-An API, or **Application Programming Interface**, is a set of rules and protocols that allows different software applications to communicate with each other. It defines the methods and data formats that applications can use to request and exchange information.
+An API, or **Application Programming Interface**, is a set of rules and protocols that allows different software applications (e.g. frontend and backend) to communicate with each other. It defines the methods and data formats that applications can use to request and exchange information.
 
 Think of it as an interface between your service and the outside world.
 
@@ -8,13 +8,13 @@ Think of it as an interface between your service and the outside world.
 USERS <--> API <--> SERVICE
 ```
 
-APIs are the backbone of most modern internet services.
+APIs are the backbone of most modern internet services. We look at them with the focus on GUI (Graphic User Interface) applications in this course, but APIs are used in many different contexts.
 
 **Examples of APIs:**
-*   Sending sensors data from IoT devices to a server
 *   Booking a flight ticket or hotel online
 *   Retrieving weather information from an app
 *   Accessing social media platforms
+*   Sending sensors data from IoT devices to a server
 *   ...
 
 APIs can range from very simple (like a calculator API) to highly complex (like the API for a major social media platform).
@@ -27,7 +27,7 @@ FastAPI is a modern, high-performance web framework for building APIs with Pytho
 *   **High performance:** One of the fastest Python frameworks available, thanks to its asynchronous capabilities.
 
 # 1. Installation
-To get started, you need to install FastAPI and a server to run your application.
+To get started, you need to install FastAPI and a server to run your application. Try to use a virtual environment.
 
 Open your terminal and run the following command:
 
@@ -78,7 +78,7 @@ INFO:     Started server process [133940]
 INFO:     Application startup complete.
 ```
 
-Since the server is running locally, you get a local IP address (`127.0.0.1`). For others to access your API, you would need to deploy it to a public server and provide them with the appropriate URL.
+Since the server is running locally, you get a local IP address (e.g. `127.0.0.1`). For others to access your API, you would need to deploy it to a public server and provide them with the appropriate URL.
 
 **Exercise:** Open your web browser and navigate to `http://127.0.0.1:8000` (or the IP address shown in the terminal). You should see the message: `{"message":"Hello, World! :)"}`.
 
@@ -245,7 +245,7 @@ FastAPI automatically generates interactive API documentation for your applicati
 These interfaces allow you to explore, test, and interact with your API endpoints directly from your browser.
 
 # 7. Next Steps
-This was just a basic introduction to FastAPI. There are many more features and capabilities to explore if you are interested, such as:
+This was just a basic introduction to FastAPI. There are many more features and capabilities to explore - maybe we will look at them next week if we have time:
 
 * Authentication and security
 * Asynchronous programming
@@ -253,7 +253,7 @@ This was just a basic introduction to FastAPI. There are many more features and 
 * Testing and debugging
 * ...
 
-# Exercise
+# Exercise for next Week
 Now it's your turn! Create a small project using FastAPI with a idea of your choice. Here are some suggestions/ideas:
 
 **Project Ideas:**
